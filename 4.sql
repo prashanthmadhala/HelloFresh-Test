@@ -1,0 +1,1 @@
+SELECT AVG(fk_subscription) FROM order JOIN subscription ON order.id_order = subscription.id_subscription 
